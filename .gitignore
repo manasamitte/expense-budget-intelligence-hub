@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit secrets and local configuration
+.streamlit/secrets.toml
+
+# SQLite database
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Generated files
+*.csv
+*.xlsx
+*.pdf
